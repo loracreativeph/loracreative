@@ -347,7 +347,9 @@ body{
       .stats-grid {
         grid-template-columns: repeat(2, 1fr);
       }
-
+      .inline-btns {
+        padding-top: 5px;
+      }
       .nav-links {
         display: none;
       }
