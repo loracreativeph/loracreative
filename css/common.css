@@ -68,6 +68,17 @@ body{
     width: 100%;
 }
 
+.members-boxes .rob-btn {
+    padding: 2px 10px;
+    background: #0041de;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.members-boxes .rob-btn:hover {
+    background: #e73636;
+}
+
 
 :root {
       --bg: #030712;
