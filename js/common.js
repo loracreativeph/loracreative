@@ -1,5 +1,5 @@
 // Typewriter Effect
-const text = ["Boang", "Igat", "Yawa", "Freak"];
+const text = ["Boang", "Puyat", "Yawa", "Freak", "Batak", "Zombie"];
 let count = 0;
 let index = 0;
 let currentText = "";

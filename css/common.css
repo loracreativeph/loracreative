@@ -215,6 +215,7 @@ body{
     .type-wrap {
       color: var(--accent);
       font-size: 1.5rem;
+      margin-bottom: 10px;
     }
 
     /* Grid Layout for Portfolio */
