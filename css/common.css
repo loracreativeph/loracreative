@@ -23,7 +23,7 @@ body{
 }
 
 .outer-con{
-    padding: 0 40px;
+    padding: 0 30px;
 }
 
 .inner-con{
@@ -323,9 +323,9 @@ body{
         display: none;
       }
       .members-boxes{
-        gap: 30px;
+        gap: 20px;
       }
       .members-boxes .card-box {
-        width: calc(50% - 15px);
+        width: calc(50% - 10px);
         }
     }
