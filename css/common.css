@@ -314,6 +314,12 @@ body{
       opacity: 0.15;
     }
 
+    footer {
+        padding: 20px 30px;
+        background: rgb(10 242 255 / 5%);
+        text-align: center;
+    }
+
     @media (max-width: 768px) {
       .stats-grid {
         grid-template-columns: repeat(2, 1fr);
