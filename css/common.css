@@ -1,6 +1,7 @@
 *{
     font-family: "Elms Sans", sans-serif;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 .orbitron-font {
@@ -21,14 +22,48 @@ body{
     font-family: "Elms Sans", sans-serif;
 }
 
+.outer-con{
+    padding: 0 40px;
+}
+
+.inner-con{
+    margin-top:150px;
+    margin-bottom:150px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .inner-con.con1{
-    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: max-content;
-    margin: 0 auto;
+    width: 900px;
+    max-width: 100%;
 }
+
+/* Members section */
+.members-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.members-boxes .card-box {
+    width: calc(25% - 38px);
+    width: calc(25% - 38px);
+    padding: 20px;
+    border: 1px solid rgb(0 234 255 / 20%);
+    background:  rgb(45 190 191 / 5%);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.members-boxes .card-box img {
+    width: 100%;
+}
+
 
 :root {
       --bg: #030712;
@@ -172,6 +207,25 @@ body{
       background: linear-gradient(to right, #fff, var(--accent));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: clamp(2rem, 5vw, 2.5rem);
+        line-height: 1;
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+        color: #00f0ff;
+        text-transform: uppercase;
+        font-family: "Orbitron", sans-serif;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+
+    .member-role{
+        color: #00f0ff;
     }
 
     .type-wrap {
@@ -284,4 +338,10 @@ body{
       .nav-links {
         display: none;
       }
+      .members-boxes{
+        gap: 30px;
+      }
+      .members-boxes .card-box {
+        width: calc(50% - 15px);
+        }
     }
