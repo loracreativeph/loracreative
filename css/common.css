@@ -2,6 +2,7 @@
     font-family: "Elms Sans", sans-serif;
     box-sizing: border-box;
     max-width: 100%;
+    transition: .3s;
 }
 
 .orbitron-font {
@@ -58,6 +59,11 @@ body{
     border-radius: 10px;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.members-boxes .card-box:hover {
+    background: #00eaff26;
 }
 
 .members-boxes .card-box img {
@@ -334,8 +340,8 @@ body{
       }
       .members-boxes .card-box {
         width: calc(50% - 10px);
-        }
-        .members-boxes .card-box{
-            padding: 10px;
-        }
+      }
+      .members-boxes .card-box{
+        padding: 10px;
+      }
     }
