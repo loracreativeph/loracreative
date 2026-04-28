@@ -362,4 +362,7 @@ body{
       .members-boxes .card-box{
         padding: 10px;
       }
+      .member-role{
+        font-size: 13px;
+      }
     }
