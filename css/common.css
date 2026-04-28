@@ -328,4 +328,7 @@ body{
       .members-boxes .card-box {
         width: calc(50% - 10px);
         }
+        .members-boxes .card-box{
+            padding: 10px;
+        }
     }
